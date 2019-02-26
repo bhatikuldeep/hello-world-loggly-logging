@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
     <Policies>
-        <VersionInfo resourceName="setMessageLogging" version="SHA-512:0f33cd5e35b6d5b897e3a5d715fcdedb3844cc0bc565c8c7efd52224e6416c515ffb9975f88220d1d00722ed9db4b4162e689a3efa65bade96f4406193cae939"/>
+        <VersionInfo resourceName="setMessageLogging" version="SHA-512:0e7cfed4dde43557866608d69b9b11d23a79f080974372cf9c40e756b1840053abea274707fec6287c9eb0ad34e38e91f1485ff0d6e5540df11bac96ece44dc3"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:1847aab433e13d586daf261e5e28648f754d1a298bfc56aab17f0ad47f18a0a32c9d3813c1543f4cdd2eb7d240552498997de3e2009d80993f92c16547e4a5a9"/>
+        <VersionInfo resourceName="default" version="SHA-512:2133fe7e1a0533a843166dad51ef7f89ea1edafe4184c86c855e32ed148bc5fdb758e0a22e1071a791ac0a760cff27ce6eae36553a6cc52478c912d397b32341"/>
     </ProxyEndpoints>
     <Resources/>
     <SharedFlows/>

@@ -17,12 +17,11 @@
     </PostClientFlow>
     <PostFlow name="PostFlow">
         <Request/>
-        <Response>
-        </Response>
+        <Response/>
     </PostFlow>
     <Flows/>
     <HTTPProxyConnection>
-        <BasePath>/v1/hello-world-elk-logging</BasePath>
+        <BasePath>/v1/hello-world-loggly-logging</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
