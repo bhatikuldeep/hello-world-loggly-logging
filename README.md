@@ -1,5 +1,7 @@
 # Apigee Edge - External Message Logging to Loggly
-![Apigee Edge + Loggly](docs/images/apigee-loggly.png)
+
+<img src="docs/images/apigee-loggly.png" width="400">
+
 ## About
 This API proxy demonstrates message logging to Loggly.
 
