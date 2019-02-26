@@ -4,8 +4,6 @@
 ## About
 This API proxy demonstrates message logging to Loggly.
 
-Those eager to see this in action -  Jump directly to  [How to use It](#how-to-use-it)
-
 The objective of creating this repository to help Apigee developers to QuickStart with logging with Loggly.   
 
 ## Prerequisite
@@ -66,5 +64,5 @@ newman run "tests/apiproxy.postman_collection.json" -e "tests/test.postman_envir
 https://github.com/bhatikuldeep/hello-world-loggly-logging/issues
 
 ## Some Tips
-- `request.content` and `response.content` are not avaiable in PostClientFlow, therefore with this example you can not capture request/response; however if it is a requirement, you can use Assign Message to capture request/response and store in a variable and use that variable in Message Logging. Just a small note, since PostClientFlow is executed after the response is sent to the API consumer, putting request/response with Assign Message will add some latency for sure.
+- `request.content` and `response.content` are not avaiable in PostClientFlow, therefore with this example you can not capture request/response; however if it is a requirement, you can use Assign Message to capture request/response and store in a variable and use that variable in Message Logging. Just a small note, since PostClientFlow is executed after the response is sent to the API consumer, putting request/response with Assign Message will add some latency and might impact the performance of your API.
 
